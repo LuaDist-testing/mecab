@@ -1,16 +1,16 @@
 -- This file was automatically generated for the LuaDist project.
 
 package = "mecab"
-version = "1.0-4"
+version = "1.0-5"
 -- LuaDist source
 source = {
-  tag = "1.0-4",
+  tag = "1.0-5",
   url = "git://github.com/LuaDist-testing/mecab.git"
 }
 -- Original source
 -- source = {
 --    url = "git://github.com/polm/lua-mecab",
---    tag = "v1.0.2"
+--    tag = "v1.0.4"
 -- }
 description = {
    summary = "Wrapper for Mecab Japanese morphological analyzer.",
@@ -27,10 +27,17 @@ build = {
   type = "make",
   build_variables = {
     CFLAGS="$(CFLAGS)",
-    LIBFLAG="$(LIBFLAG)"
+    LIBFLAG="$(LIBFLAG)",
+    LUA_LIBDIR="$(LUA_LIBDIR)",
+    LUA_BINDIR="$(LUA_BINDIR)",
+    LUA_INCDIR="$(LUA_INCDIR)",
+    LUA="$(LUA)",
   },
   install_variables = {
     INST_PREFIX="$(PREFIX)",
-    INST_LIBDIR="$(LIBDIR)"
+    INST_BINDIR="$(BINDIR)",
+    INST_LIBDIR="$(LIBDIR)",
+    INST_LUADIR="$(LUADIR)",
+    INST_CONFDIR="$(CONFDIR)"
     },
 }
