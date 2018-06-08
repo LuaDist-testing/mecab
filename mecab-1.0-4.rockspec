@@ -1,10 +1,10 @@
 -- This file was automatically generated for the LuaDist project.
 
 package = "mecab"
-version = "1.0-3"
+version = "1.0-4"
 -- LuaDist source
 source = {
-  tag = "1.0-3",
+  tag = "1.0-4",
   url = "git://github.com/LuaDist-testing/mecab.git"
 }
 -- Original source
