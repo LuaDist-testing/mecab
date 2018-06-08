@@ -1,16 +1,16 @@
 -- This file was automatically generated for the LuaDist project.
 
 package = "mecab"
-version = "1.0-6"
+version = "1.0-7"
 -- LuaDist source
 source = {
-  tag = "1.0-6",
+  tag = "1.0-7",
   url = "git://github.com/LuaDist-testing/mecab.git"
 }
 -- Original source
 -- source = {
 --    url = "git://github.com/polm/lua-mecab",
---    tag = "v1.0.4"
+--    tag = "v1.0.7"
 -- }
 description = {
    summary = "Wrapper for Mecab Japanese morphological analyzer.",
